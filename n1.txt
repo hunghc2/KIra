@@ -1,0 +1,10 @@
+detect line
+https://opencv24-python-tutorials.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_houghlines/py_houghlines.html
+
+rectangle find
+https://github.com/jlsutherland/doc2text/blob/master/doc2text/page.py
+
+road line
+https://www.geeksforgeeks.org/opencv-real-time-road-lane-detection/
+
+https://www.youtube.com/watch?v=yvfI4p6Wyvk&ab_channel=ProgrammingKnowledge
