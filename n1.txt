@@ -8,3 +8,33 @@ road line
 https://www.geeksforgeeks.org/opencv-real-time-road-lane-detection/
 
 https://www.youtube.com/watch?v=yvfI4p6Wyvk&ab_channel=ProgrammingKnowledge
+
+https://www.analyticsvidhya.com/blog/2020/05/tutorial-real-time-lane-detection-opencv/
+
+
+region of interest
+python code: cv2
+https://gist.github.com/pknowledge/86a148c6cd5f0f2820ba81561cc00a8e
+
+Detect line: cv2.Canny
+cv2.HoghLinesP
+
+gray = cv2.cvtColor(lane-image, cv2.COLOR_RGB)
+=> reduce noise
+blur = cv2.GaussianBlur(gray, (5,5))
+
+yolo weights and configurations
+https://pjreddie.com/darknet/yolo/
+
+Non-Maximum Suppression
+https://www.pyimagesearch.com/2014/11/17/non-maximum-suppression-object-detection-python/?_ga=2.110155648.40927074.1633494809-827466013.1633494809
+
+load YOLO model
+net = cv2.dnn.readNetFromDarknet(configPath, weightsPath)
+
+Preprocessing image
+cv2.dnn.blobFromImage
+https://www.pyimagesearch.com/2017/11/06/deep-learning-opencvs-blobfromimage-works/?_ga=2.114816002.40927074.1633494809-827466013.1633494809
+
+https://www.pyimagesearch.com/2018/11/12/yolo-object-detection-with-opencv/
+
